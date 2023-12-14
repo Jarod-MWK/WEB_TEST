@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MEDBAY</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <button onclick="navigateTo('page1.html')">Home</button>
+            <button onclick="navigateTo('page2.html')">Location</button>
+            <button onclick="navigateTo('page3.html')">Provider</button>
+            <!-- Add more buttons as needed -->
+        </div>
+        <div class="content">
+            <header>
+                <center><h1>Aria Community Health Center MEDBAY Dashboards</h1></center>
+            </header>
+            <div class="middle-content">
+	<center>
+	<t>The Aria Community Health Center MEDBAY Dashboard is the premier method of migrating through all current and future dashboards in the Data Management Codex.</t>
+	<br>
+	<t>Please refer to the left side Navigation Menu 
+	<br>
+	<t>Please email the site admin at: <b> JKostick@ariachc.org </b> for all comments, questions, and concerns.</t>
+	</center>
+                <!-- This area will be left blank for Tableau dashboards -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
